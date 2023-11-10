@@ -27,7 +27,6 @@ interface ArticleProps {
 const Article: React.FC<ArticleProps> = ({ id, customLink }) => {
   const {
     loading: isArticleLoading,
-    error: articleError,
     data: articleData,
   } = useQuery<IArticle>(ARTICLE_QUERY, {
     variables: { id: id },

@@ -4,9 +4,6 @@ import { ArticlesLayout } from "./ArticlesListStyledComponents";
 import { useQuery } from "@apollo/client";
 import { IArticlesList } from "../../shared/api/articlesList/model";
 import { ARTICLES_LIST_QUERY } from "../../shared/api/articlesList/arcticlesList";
-import Article from "../../entities/Article/Article";
-import { formatTimestampToCustomString } from "../../shared/utils/formatTimestampToCustomString";
-import { differentDayCheck } from "../../shared/utils/differentDayCheck";
 import ArticlesRender from "../../entities/ArticlesRender/ArticlesRender";
 
 const ArticlesList: React.FC = () => {

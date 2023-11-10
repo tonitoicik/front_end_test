@@ -1,5 +1,4 @@
 import { gql } from "@apollo/client";
-import { API_URL } from "../../config";
 
 export const ARTICLES_LIST_QUERY = gql`
   query GetArticlesList($skip: Int!) {

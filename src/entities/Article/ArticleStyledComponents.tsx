@@ -41,8 +41,8 @@ export const Title = styled.h3`
   line-height: 26px;
   position: relative;
   color: rgb(15, 23, 42);
-  letter-spacing: 0px;
-  margin: -2.5px 0px 8px;
+  letter-spacing: 0;
+  margin: -2.5px 0 8px;
   font-weight: 500;
 
   &:hover {

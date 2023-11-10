@@ -9,7 +9,3 @@ export const ArticlesLayout = styled.div`
   margin-left: auto;
   margin-right: auto;
 `;
-
-export const ScrollToTopButton = styled.button`
-  margin-bottom: 20px;
-`;
